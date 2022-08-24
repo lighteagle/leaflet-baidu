@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="leaflet.css">
+  <script src="leaflet.js"></script>
+</head>
+<body>
+  <main>
+    <div id="map" class="map"></div>
+  
+    <div class="layers">
+      <button value="mapbox" class="layer-select">Mapbox</button>
+      <button value="mapboxsat" class="layer-select">Mapbox (sat.)</button>
+      <button value="baidu" class="layer-select">Baidu</button>
+      <button value="baidusat" class="layer-select">Baidu (sat.)</button>
+      <button value="tianditu" class="layer-select">TianDiTu</button>
+      <button value="tianditusat" class="layer-select">TianDiTu (sat.)</button>
+      <button value="gaode" class="layer-select">GaoDe</button>
+      <button value="gaodesat" class="layer-select">GaoDe (sat.)</button>
+      <button value="geoq" class="layer-select">Geoq</button>
+      <button value="googlecn" class="layer-select">Google CN</button>
+    </div>
+    
+  </main>
+  <script src="leaflet.ChineseTmsProviders.js"></script>
+  <script src="transform.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

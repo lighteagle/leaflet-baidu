@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font: 16px Helvetica, Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: stretch;
+  align-items: stretch;
+  min-height: 100%;
+}
+
+.map {
+  flex: 1;
+}
+
+.layers {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1001;
+}
+
+.layer-select {
+  border: 0;
+  background: #fff;
+  color: #999;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 8px;
+  outline: 0 !important;
+}
+
+.layer-select.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.marker {
+  background: red;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
